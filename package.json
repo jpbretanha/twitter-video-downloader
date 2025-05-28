@@ -1,0 +1,25 @@
+{
+  "name": "twitter-video-downloader",
+  "version": "1.0.0",
+  "description": "A TypeScript CLI tool to download videos from Twitter links",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "download": "ts-node src/index.ts"
+  },
+  "keywords": ["twitter", "video", "downloader", "cli"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "commander": "^11.0.0",
+    "ytdl-core": "^4.11.5"
+  }
+}

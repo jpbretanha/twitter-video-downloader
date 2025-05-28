@@ -1,0 +1,11 @@
+node_modules/
+dist/
+output/
+*.log
+.env
+.DS_Store
+*.mp4
+*.mov
+*.avi
+*.mkv
+.claude
